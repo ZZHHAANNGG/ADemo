@@ -59,8 +59,8 @@ class TableViewController: UITableViewController,UIPopoverControllerDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as? TableViewCell
         
         var row = indexPath.row
-        var rowDict : NSDictionary = listVideos.objectAtIndex(row) as! NSDictionary
-        let url : String = rowDict.objectForKey("IPhoto") as! String
+        var rowDict : NSDictionary = listVideos.objectAtIndex(row) as NSDictionary
+        let url : String = rowDict.objectForKey("IPhoto") as String
         //let dataImg : NSData = NSData(contentsOfURL: NSURL(string : url)!)!
         
         // cell!.IPhoto.image = UIImage(data: dataImg)
