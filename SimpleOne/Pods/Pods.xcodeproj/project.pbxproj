@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A546817239E244B685C0FAE /* RBStoryboardModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837DCDB2391C263C626A38E /* RBStoryboardModalSegue.h */; };
+		0F22B6E116379A11104B565A /* RBStoryboardLinkSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5A8BDEC19911856C33FC83 /* RBStoryboardLinkSource.h */; };
+		300268AB5D82847E2DFD5F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EDD0D05FC8614CA7126F3E /* Foundation.framework */; };
+		37773E2253C9EA5986D392DD /* RBStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9A60C948170E958A44D4D /* RBStoryboardPopoverSegue.m */; };
+		454A6376B8CEDB66D6E9830A /* RBStoryboardPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD50385B25F099A7C05785E /* RBStoryboardPushSegue.m */; };
+		51352CC4ED30F827BF1542E6 /* RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF12BD9B504FAC357F71F9B /* RBStoryboardLink.h */; };
+		65EB01A2D918AF77ED570428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16922B4FF429E79905094AC5 /* UIKit.framework */; };
+		69FCC2DA49D79835326811DD /* RBStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C58BB332D6964A547C6F88C /* RBStoryboardPopoverSegue.h */; };
+		6D427EEDE916DFC0FDEC0895 /* RBStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 749A16047A9AB20BB9971237 /* RBStoryboardSegue.h */; };
+		7C0930220C00DCFF967F2C21 /* RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E44966A39BFC58EB7FB3FA /* RBStoryboardLink.m */; };
+		8A7649A87CA72C31C1A39C10 /* RBStoryboardPushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2CFAE8E251F957F4E749CF /* RBStoryboardPushSegue.h */; };
+		953C0A8C9DC0E26AAFC67BBA /* UIViewController+RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCC8388EF771292E271A6B9 /* UIViewController+RBStoryboardLink.h */; };
+		AB1E5CEE149FA3856A19FD43 /* Pods-SimpleOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5F24B34AD6B340CB4B2044 /* Pods-SimpleOne-dummy.m */; };
+		C3482C5318CAAD0D4F0A9C4F /* RBStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F849DE3F9742C64D6781D0 /* RBStoryboardSegue.m */; };
+		C6FBC6E5B5F0037FCF9221F9 /* Pods-SimpleOne-RBStoryboardLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03944CCD066980BA6FED1CC7 /* Pods-SimpleOne-RBStoryboardLink-dummy.m */; };
+		CFB094D34EACBFB71E5DFC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EDD0D05FC8614CA7126F3E /* Foundation.framework */; };
+		F3280F3F8177C531D81697A9 /* UIViewController+RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A3F31EE30E20C3FC4B7F5 /* UIViewController+RBStoryboardLink.m */; };
+		FE18430BB8197DE16B9F96C4 /* RBStoryboardModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B6F166FD1E01A57B75EA4 /* RBStoryboardModalSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44089094D85EB3BBC1DD6BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0AB1AB75EDABA7DFC8084E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075A01E811C01FDD8169BD56;
+			remoteInfo = "Pods-SimpleOne-RBStoryboardLink";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03944CCD066980BA6FED1CC7 /* Pods-SimpleOne-RBStoryboardLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleOne-RBStoryboardLink-dummy.m"; sourceTree = "<group>"; };
+		03E44966A39BFC58EB7FB3FA /* RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardLink.m; path = Classes/RBStoryboardLink.m; sourceTree = "<group>"; };
+		061455AF7EAF355901D6F8ED /* Pods-SimpleOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleOne.release.xcconfig"; sourceTree = "<group>"; };
+		06162939E2621E9DB5CA1B24 /* Pods-SimpleOne-RBStoryboardLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleOne-RBStoryboardLink.xcconfig"; sourceTree = "<group>"; };
+		0F5A8BDEC19911856C33FC83 /* RBStoryboardLinkSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLinkSource.h; path = Classes/RBStoryboardLinkSource.h; sourceTree = "<group>"; };
+		126A92872AB32535AE6C7586 /* Pods-SimpleOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleOne-resources.sh"; sourceTree = "<group>"; };
+		13D5F3E1615A5CDBA1D7BB72 /* libPods-SimpleOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16922B4FF429E79905094AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2677FF344D277EC68727A3B0 /* Pods-SimpleOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleOne-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2837DCDB2391C263C626A38E /* RBStoryboardModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardModalSegue.h; path = Classes/RBStoryboardModalSegue.h; sourceTree = "<group>"; };
+		2BF2F190E591E1C1BB0C110C /* Pods-SimpleOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleOne-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D5F24B34AD6B340CB4B2044 /* Pods-SimpleOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleOne-dummy.m"; sourceTree = "<group>"; };
+		4B6B6F166FD1E01A57B75EA4 /* RBStoryboardModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardModalSegue.m; path = Classes/RBStoryboardModalSegue.m; sourceTree = "<group>"; };
+		4C5A3F31EE30E20C3FC4B7F5 /* UIViewController+RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RBStoryboardLink.m"; path = "Classes/UIViewController+RBStoryboardLink.m"; sourceTree = "<group>"; };
+		5CD50385B25F099A7C05785E /* RBStoryboardPushSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPushSegue.m; path = Classes/RBStoryboardPushSegue.m; sourceTree = "<group>"; };
+		5FCC8388EF771292E271A6B9 /* UIViewController+RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RBStoryboardLink.h"; path = "Classes/UIViewController+RBStoryboardLink.h"; sourceTree = "<group>"; };
+		6AF12BD9B504FAC357F71F9B /* RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLink.h; path = Classes/RBStoryboardLink.h; sourceTree = "<group>"; };
+		6C58BB332D6964A547C6F88C /* RBStoryboardPopoverSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPopoverSegue.h; path = Classes/RBStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		749A16047A9AB20BB9971237 /* RBStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardSegue.h; path = Classes/RBStoryboardSegue.h; sourceTree = "<group>"; };
+		81DEBEBCC96694364602AB03 /* Pods-SimpleOne-RBStoryboardLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleOne-RBStoryboardLink-prefix.pch"; sourceTree = "<group>"; };
+		87E233A40E0B4DBDEDEC10B4 /* libPods-SimpleOne-RBStoryboardLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleOne-RBStoryboardLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4A8C04FFF4E82F6D5CDEF8 /* Pods-SimpleOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleOne.debug.xcconfig"; sourceTree = "<group>"; };
+		91E530461868D1356E119D14 /* Pods-SimpleOne-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleOne-environment.h"; sourceTree = "<group>"; };
+		93F849DE3F9742C64D6781D0 /* RBStoryboardSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardSegue.m; path = Classes/RBStoryboardSegue.m; sourceTree = "<group>"; };
+		9B7FB6CFD946514DD308C3D7 /* Pods-SimpleOne-RBStoryboardLink-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleOne-RBStoryboardLink-Private.xcconfig"; sourceTree = "<group>"; };
+		DE2CFAE8E251F957F4E749CF /* RBStoryboardPushSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPushSegue.h; path = Classes/RBStoryboardPushSegue.h; sourceTree = "<group>"; };
+		E4B9A60C948170E958A44D4D /* RBStoryboardPopoverSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPopoverSegue.m; path = Classes/RBStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		F3EDD0D05FC8614CA7126F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F87F7FF0B705E3D27618E33C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D71226850C05B3AA5706458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB094D34EACBFB71E5DFC14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F4C79DC7D25D43BE88A254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300268AB5D82847E2DFD5F9C /* Foundation.framework in Frameworks */,
+				65EB01A2D918AF77ED570428 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B599208FFE0A78397B830B = {
+			isa = PBXGroup;
+			children = (
+				F87F7FF0B705E3D27618E33C /* Podfile */,
+				2C91CF4E92C075A9B9138D4B /* Frameworks */,
+				B0EFF1A30B26B68784A08882 /* Pods */,
+				629EEBEA403E9658EE3D15F1 /* Products */,
+				5109E0004C65E84688C402F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2C91CF4E92C075A9B9138D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9037C96D4E15908EB26E2A02 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5109E0004C65E84688C402F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5940515A1B54F1D07AD14545 /* Pods-SimpleOne */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5940515A1B54F1D07AD14545 /* Pods-SimpleOne */ = {
+			isa = PBXGroup;
+			children = (
+				2677FF344D277EC68727A3B0 /* Pods-SimpleOne-acknowledgements.markdown */,
+				2BF2F190E591E1C1BB0C110C /* Pods-SimpleOne-acknowledgements.plist */,
+				3D5F24B34AD6B340CB4B2044 /* Pods-SimpleOne-dummy.m */,
+				91E530461868D1356E119D14 /* Pods-SimpleOne-environment.h */,
+				126A92872AB32535AE6C7586 /* Pods-SimpleOne-resources.sh */,
+				8F4A8C04FFF4E82F6D5CDEF8 /* Pods-SimpleOne.debug.xcconfig */,
+				061455AF7EAF355901D6F8ED /* Pods-SimpleOne.release.xcconfig */,
+			);
+			name = "Pods-SimpleOne";
+			path = "Target Support Files/Pods-SimpleOne";
+			sourceTree = "<group>";
+		};
+		629EEBEA403E9658EE3D15F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D5F3E1615A5CDBA1D7BB72 /* libPods-SimpleOne.a */,
+				87E233A40E0B4DBDEDEC10B4 /* libPods-SimpleOne-RBStoryboardLink.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9037C96D4E15908EB26E2A02 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3EDD0D05FC8614CA7126F3E /* Foundation.framework */,
+				16922B4FF429E79905094AC5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0EFF1A30B26B68784A08882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D017D4ED07D469F2ED6F5533 /* RBStoryboardLink */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D017D4ED07D469F2ED6F5533 /* RBStoryboardLink */ = {
+			isa = PBXGroup;
+			children = (
+				6AF12BD9B504FAC357F71F9B /* RBStoryboardLink.h */,
+				03E44966A39BFC58EB7FB3FA /* RBStoryboardLink.m */,
+				0F5A8BDEC19911856C33FC83 /* RBStoryboardLinkSource.h */,
+				2837DCDB2391C263C626A38E /* RBStoryboardModalSegue.h */,
+				4B6B6F166FD1E01A57B75EA4 /* RBStoryboardModalSegue.m */,
+				6C58BB332D6964A547C6F88C /* RBStoryboardPopoverSegue.h */,
+				E4B9A60C948170E958A44D4D /* RBStoryboardPopoverSegue.m */,
+				DE2CFAE8E251F957F4E749CF /* RBStoryboardPushSegue.h */,
+				5CD50385B25F099A7C05785E /* RBStoryboardPushSegue.m */,
+				749A16047A9AB20BB9971237 /* RBStoryboardSegue.h */,
+				93F849DE3F9742C64D6781D0 /* RBStoryboardSegue.m */,
+				5FCC8388EF771292E271A6B9 /* UIViewController+RBStoryboardLink.h */,
+				4C5A3F31EE30E20C3FC4B7F5 /* UIViewController+RBStoryboardLink.m */,
+				EC2F158D53CB30D0B49FF27B /* Support Files */,
+			);
+			path = RBStoryboardLink;
+			sourceTree = "<group>";
+		};
+		EC2F158D53CB30D0B49FF27B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06162939E2621E9DB5CA1B24 /* Pods-SimpleOne-RBStoryboardLink.xcconfig */,
+				9B7FB6CFD946514DD308C3D7 /* Pods-SimpleOne-RBStoryboardLink-Private.xcconfig */,
+				03944CCD066980BA6FED1CC7 /* Pods-SimpleOne-RBStoryboardLink-dummy.m */,
+				81DEBEBCC96694364602AB03 /* Pods-SimpleOne-RBStoryboardLink-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SimpleOne-RBStoryboardLink";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAD127CCA51F1C4E06C0489F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51352CC4ED30F827BF1542E6 /* RBStoryboardLink.h in Headers */,
+				0F22B6E116379A11104B565A /* RBStoryboardLinkSource.h in Headers */,
+				0A546817239E244B685C0FAE /* RBStoryboardModalSegue.h in Headers */,
+				69FCC2DA49D79835326811DD /* RBStoryboardPopoverSegue.h in Headers */,
+				8A7649A87CA72C31C1A39C10 /* RBStoryboardPushSegue.h in Headers */,
+				6D427EEDE916DFC0FDEC0895 /* RBStoryboardSegue.h in Headers */,
+				953C0A8C9DC0E26AAFC67BBA /* UIViewController+RBStoryboardLink.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		075A01E811C01FDD8169BD56 /* Pods-SimpleOne-RBStoryboardLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941E6B5BA1952FF9FAC657C2 /* Build configuration list for PBXNativeTarget "Pods-SimpleOne-RBStoryboardLink" */;
+			buildPhases = (
+				66CCA2E1AFBCCC33ECC3E0B6 /* Sources */,
+				D8F4C79DC7D25D43BE88A254 /* Frameworks */,
+				DAD127CCA51F1C4E06C0489F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleOne-RBStoryboardLink";
+			productName = "Pods-SimpleOne-RBStoryboardLink";
+			productReference = 87E233A40E0B4DBDEDEC10B4 /* libPods-SimpleOne-RBStoryboardLink.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F975FCDAD66E2DBFB3EC986E /* Pods-SimpleOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E217D368CFE62BE2FE11EF61 /* Build configuration list for PBXNativeTarget "Pods-SimpleOne" */;
+			buildPhases = (
+				DA9E530F66ED4E4A6A6BEE0C /* Sources */,
+				5D71226850C05B3AA5706458 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216142A68C8D4D11422A7142 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleOne";
+			productName = "Pods-SimpleOne";
+			productReference = 13D5F3E1615A5CDBA1D7BB72 /* libPods-SimpleOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0AB1AB75EDABA7DFC8084E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = F4520F187D9D4942923556BA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11B599208FFE0A78397B830B;
+			productRefGroup = 629EEBEA403E9658EE3D15F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F975FCDAD66E2DBFB3EC986E /* Pods-SimpleOne */,
+				075A01E811C01FDD8169BD56 /* Pods-SimpleOne-RBStoryboardLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CCA2E1AFBCCC33ECC3E0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FBC6E5B5F0037FCF9221F9 /* Pods-SimpleOne-RBStoryboardLink-dummy.m in Sources */,
+				7C0930220C00DCFF967F2C21 /* RBStoryboardLink.m in Sources */,
+				FE18430BB8197DE16B9F96C4 /* RBStoryboardModalSegue.m in Sources */,
+				37773E2253C9EA5986D392DD /* RBStoryboardPopoverSegue.m in Sources */,
+				454A6376B8CEDB66D6E9830A /* RBStoryboardPushSegue.m in Sources */,
+				C3482C5318CAAD0D4F0A9C4F /* RBStoryboardSegue.m in Sources */,
+				F3280F3F8177C531D81697A9 /* UIViewController+RBStoryboardLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9E530F66ED4E4A6A6BEE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5CEE149FA3856A19FD43 /* Pods-SimpleOne-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216142A68C8D4D11422A7142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleOne-RBStoryboardLink";
+			target = 075A01E811C01FDD8169BD56 /* Pods-SimpleOne-RBStoryboardLink */;
+			targetProxy = 44089094D85EB3BBC1DD6BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF25B70E2EFA1DA74D361DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7FB6CFD946514DD308C3D7 /* Pods-SimpleOne-RBStoryboardLink-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleOne-RBStoryboardLink/Pods-SimpleOne-RBStoryboardLink-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		20F2E9599E2B267AB3164EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061455AF7EAF355901D6F8ED /* Pods-SimpleOne.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		25CD7F258B07EEF6F34C6E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330FCF5311349D9ECDFA0A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0CA41EA9EDB3643B9606A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7FB6CFD946514DD308C3D7 /* Pods-SimpleOne-RBStoryboardLink-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleOne-RBStoryboardLink/Pods-SimpleOne-RBStoryboardLink-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3870A69FE3C281FFC6EBDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A8C04FFF4E82F6D5CDEF8 /* Pods-SimpleOne.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941E6B5BA1952FF9FAC657C2 /* Build configuration list for PBXNativeTarget "Pods-SimpleOne-RBStoryboardLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CA41EA9EDB3643B9606A30 /* Debug */,
+				1FF25B70E2EFA1DA74D361DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E217D368CFE62BE2FE11EF61 /* Build configuration list for PBXNativeTarget "Pods-SimpleOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3870A69FE3C281FFC6EBDBC /* Debug */,
+				20F2E9599E2B267AB3164EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4520F187D9D4942923556BA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330FCF5311349D9ECDFA0A86 /* Debug */,
+				25CD7F258B07EEF6F34C6E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0AB1AB75EDABA7DFC8084E5 /* Project object */;
+}
