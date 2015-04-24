@@ -14,6 +14,10 @@
 		9F6F2F6F1AE9441E00B5ABB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F2F6E1AE9441E00B5ABB8 /* Images.xcassets */; };
 		9F6F2F721AE9441E00B5ABB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F2F701AE9441E00B5ABB8 /* LaunchScreen.xib */; };
 		9F6F2F7E1AE9441E00B5ABB8 /* SimpleOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F2F7D1AE9441E00B5ABB8 /* SimpleOneTests.swift */; };
+		B0FCFF2B1AE9EC2800D73C3A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */; };
+		B0FCFF2D1AE9EC3C00D73C3A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */; };
+		B0FCFF2F1AE9EC4800D73C3A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */; };
+		B0FCFF331AE9EE2C00D73C3A /* TestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0FCFF321AE9EE2C00D73C3A /* TestData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		9F6F2F771AE9441E00B5ABB8 /* SimpleOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6F2F7C1AE9441E00B5ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6F2F7D1AE9441E00B5ABB8 /* SimpleOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOneTests.swift; sourceTree = "<group>"; };
+		B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B0FCFF321AE9EE2C00D73C3A /* TestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		9F6F2F621AE9441E00B5ABB8 /* SimpleOne */ = {
 			isa = PBXGroup;
 			children = (
+				B0FCFF291AE9EBF900D73C3A /* Home */,
 				9F6F2F651AE9441E00B5ABB8 /* AppDelegate.swift */,
 				9F6F2F671AE9441E00B5ABB8 /* PersonalInfoVC.swift */,
 				9F6F2F691AE9441E00B5ABB8 /* HomeVC.swift */,
@@ -94,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6F2F641AE9441E00B5ABB8 /* Info.plist */,
+				B0FCFF321AE9EE2C00D73C3A /* TestData.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,6 +123,16 @@
 				9F6F2F7C1AE9441E00B5ABB8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FCFF291AE9EBF900D73C3A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */,
+				B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */,
+				B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +218,8 @@
 				9F6F2F6D1AE9441E00B5ABB8 /* Main.storyboard in Resources */,
 				9F6F2F721AE9441E00B5ABB8 /* LaunchScreen.xib in Resources */,
 				9F6F2F6F1AE9441E00B5ABB8 /* Images.xcassets in Resources */,
+				B0FCFF331AE9EE2C00D73C3A /* TestData.plist in Resources */,
+				B0FCFF2F1AE9EC4800D73C3A /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6F2F6A1AE9441E00B5ABB8 /* HomeVC.swift in Sources */,
+				B0FCFF2B1AE9EC2800D73C3A /* TableViewCell.swift in Sources */,
 				9F6F2F661AE9441E00B5ABB8 /* AppDelegate.swift in Sources */,
+				B0FCFF2D1AE9EC3C00D73C3A /* TableViewController.swift in Sources */,
 				9F6F2F681AE9441E00B5ABB8 /* PersonalInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
