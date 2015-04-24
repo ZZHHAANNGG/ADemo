@@ -27,8 +27,7 @@ class TableViewController: UITableViewController,UIPopoverControllerDelegate {
         let plistPath : String! = bundle.pathForResource("TestData", ofType: "plist")
         listVideos = NSMutableArray(contentsOfFile: plistPath)
         
-        let barHomeButton = UIBarButtonItem(image: UIImage(named: "titleEN"), style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
-        self.navigationItem.leftBarButtonItems = [barHomeButton]
+
         
         
     }

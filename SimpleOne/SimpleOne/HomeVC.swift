@@ -12,6 +12,8 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let barHomeButton = UIBarButtonItem(image: UIImage(named: "titleEN"), style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
+        self.navigationItem.leftBarButtonItems = [barHomeButton]
         // Do any additional setup after loading the view, typically from a nib.
     }
 
