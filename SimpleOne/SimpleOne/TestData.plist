@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>IName</key>
+		<string>Jack</string>
+		<key>IPhoto</key>
+		<string>photo1</string>
+		<key>ITime</key>
+		<string>12:01</string>
+		<key>ISubTitle</key>
+		<string>What country had the largest recorded earth quake?</string>
+		<key>Advices</key>
+		<string>17</string>
+	</dict>
+	<dict>
+		<key>IName</key>
+		<string>Summer</string>
+		<key>IPhoto</key>
+		<string>photo2</string>
+		<key>ITime</key>
+		<string>13:00</string>
+		<key>ISubTitle</key>
+		<string>How many octaves dose mariah Carey&apos;s vocal range spanearthquake?</string>
+		<key>Advices</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>IName</key>
+		<string>Supperman</string>
+		<key>IPhoto</key>
+		<string>photo3</string>
+		<key>ITime</key>
+		<string>10:30</string>
+		<key>ISubTitle</key>
+		<string>Has anyone filled out a perfect March Maddness bracket.</string>
+		<key>Advices</key>
+		<string>4</string>
+	</dict>
+</array>
+</plist>
