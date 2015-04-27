@@ -16,7 +16,6 @@
 		9F6F2F7E1AE9441E00B5ABB8 /* SimpleOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F2F7D1AE9441E00B5ABB8 /* SimpleOneTests.swift */; };
 		B0FCFF2B1AE9EC2800D73C3A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */; };
 		B0FCFF2D1AE9EC3C00D73C3A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */; };
-		B0FCFF2F1AE9EC4800D73C3A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */; };
 		B0FCFF331AE9EE2C00D73C3A /* TestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0FCFF321AE9EE2C00D73C3A /* TestData.plist */; };
 		C6FFFF995A2D96A2E47D2BDC /* libPods-SimpleOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF0294E52DEABB48348B847 /* libPods-SimpleOne.a */; };
 /* End PBXBuildFile section */
@@ -48,7 +47,6 @@
 		9F6F2F7D1AE9441E00B5ABB8 /* SimpleOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOneTests.swift; sourceTree = "<group>"; };
 		B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B0FCFF321AE9EE2C00D73C3A /* TestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +135,6 @@
 			children = (
 				B0FCFF2A1AE9EC2800D73C3A /* TableViewCell.swift */,
 				B0FCFF2C1AE9EC3C00D73C3A /* TableViewController.swift */,
-				B0FCFF2E1AE9EC4800D73C3A /* Home.storyboard */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -245,7 +242,6 @@
 				9F6F2F721AE9441E00B5ABB8 /* LaunchScreen.xib in Resources */,
 				9F6F2F6F1AE9441E00B5ABB8 /* Images.xcassets in Resources */,
 				B0FCFF331AE9EE2C00D73C3A /* TestData.plist in Resources */,
-				B0FCFF2F1AE9EC4800D73C3A /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

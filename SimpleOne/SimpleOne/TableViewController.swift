@@ -26,10 +26,6 @@ class TableViewController: UITableViewController,UIPopoverControllerDelegate {
         var bundle = NSBundle.mainBundle()
         let plistPath : String! = bundle.pathForResource("TestData", ofType: "plist")
         listVideos = NSMutableArray(contentsOfFile: plistPath)
-        
-
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,7 +56,7 @@ class TableViewController: UITableViewController,UIPopoverControllerDelegate {
 
         var row = indexPath.row
         var rowDict: AnyObject = listVideos.objectAtIndex(row)
-        let url : String = rowDict.objectForKey("IPhoto") as! String
+        let url : String = rowDict.objectForKey("IPhoto") as String
         //let dataImg : NSData = NSData(contentsOfURL: NSURL(string : url)!)!
         
         // cell!.IPhoto.image = UIImage(data: dataImg)

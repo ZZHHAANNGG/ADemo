@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "scale" : "1x",
-      "filename" : "navbar.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "iphone",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "标题栏英文字母.png"
     },
     {
       "idiom" : "iphone",
